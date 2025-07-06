@@ -1,3 +1,69 @@
+# 🛍️ Pyara — E-Commerce Platform
+
+**Pyara** is a modern, full-stack e-commerce web application built with a focus on intuitive UX, responsive design, and essential commerce functionalities. It provides a complete shopping experience including user authentication, product discovery, cart management, dummy checkout integration (Razorpay - Test Mode), downloadable PDF receipts, and email-based transaction tracking.
+
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication**
+  - Secure sign-up and login
+  - Password recovery with email reset option
+
+- 🛒 **E-Commerce Functionality**
+  - Product listing with category filters
+  - Full-text product search
+  - Add to cart, remove, and quantity update
+  - Persistent cart on refresh
+
+- 💳 **Checkout & Payment**
+  - Razorpay (Test Mode) payment gateway integration
+  - Order confirmation and PDF invoice generation
+
+- 📄 **PDF Receipt**
+  - Automatically generates a downloadable PDF receipt after successful payment
+
+- 📧 **Email Notification**
+  - Sends PDF receipt to user’s registered email (via Mailgun)
+
+- 🌐 **Responsive UI**
+  - Seamless experience across devices (desktop, tablet, mobile)
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, Tailwind CSS, React Router
+- **Backend**: Node.js, Express
+- **Database**: Firebase (Authentication & Firestore)
+- **PDF Generation**: `jspdf`
+- **Email Service**: Mailgun API
+- **Payment Gateway**: Razorpay (Test Mode)
+
+---
+
+## 📸 Screenshots
+
+> 
+
+---
+
+## 🛠️ Installation
+
+## Clone the Repository
+
+git clone https://github.com/Webhunt-jyoti/CELEBAL_MAJOR_PROJECT.git
+
+cd CELEBAL_MAJOR_PROJECT
+
+Mail Server .env:
+
+MAILGUN_API_KEY=your_mailgun_api_key
+MAILGUN_DOMAIN=your_domain.mailgun.org
+SENDER_EMAIL=no-reply@yourdomain.com
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
