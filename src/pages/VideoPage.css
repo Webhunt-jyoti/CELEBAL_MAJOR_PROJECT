@@ -1,0 +1,109 @@
+/* Base styles */
+.vdo {
+  height: 63rem;
+  width: 35rem;
+  margin: 3rem;
+  padding: 2rem;
+  margin-right: 1rem;
+}
+
+.txxt {
+  height: 33rem;
+  width: 35rem;
+  margin: 4rem;
+  padding: 2rem;
+}
+
+.imgg {
+  margin: 3rem;
+}
+
+/* Responsive adjustments for tablets and phones */
+@media (max-width: 1024px) {
+  .vdo, .txxt {
+    width: 90%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .txxt {
+    height: auto;
+    text-align: center;
+  }
+
+  .imgg {
+    margin: 2rem auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .vdo, .txxt {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+  }
+
+  .imgg {
+    margin: 1rem auto;
+    width: 100%;
+  }
+}
+
+
+.text-content {
+  position: relative;
+  z-index: 20;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styling */
+.get-started-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.get-started-btn:hover {
+  background-color: #e5e5e5;
+}
+
+/* Responsive for tablets */
+@media (min-width: 768px) {
+  .text-content {
+    align-items: flex-start;
+    text-align: left;
+    padding: 3rem;
+  }
+
+  .text-content h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Responsive for large desktops */
+@media (min-width: 1024px) {
+  .text-content h1 {
+    font-size: 3.5rem;
+  }
+}
