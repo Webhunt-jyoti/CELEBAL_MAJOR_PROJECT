@@ -43,6 +43,8 @@
 ---
 
 ## 📸 Screenshots
+![Screenshot (318)](https://github.com/user-attachments/assets/f4179de3-a0ef-4520-a625-15fe7cd801a1)
+![Screenshot (317)](https://github.com/user-attachments/assets/4e969284-7df2-483e-b34b-7859ac90bc5c)
 
 > 
 
@@ -57,10 +59,16 @@ git clone https://github.com/Webhunt-jyoti/CELEBAL_MAJOR_PROJECT.git
 cd CELEBAL_MAJOR_PROJECT
 
 Mail Server .env:
+-----------------
+Email user  = Write any valid email
+Email password = write your App password for automatic authenticate
 
+
+global .env
+----------
 MAILGUN_API_KEY=your_mailgun_api_key
 MAILGUN_DOMAIN=your_domain.mailgun.org
-SENDER_EMAIL=no-reply@yourdomain.com
+
 
 
 
