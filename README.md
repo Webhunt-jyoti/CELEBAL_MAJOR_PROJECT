@@ -60,16 +60,16 @@ git clone https://github.com/Webhunt-jyoti/CELEBAL_MAJOR_PROJECT.git
 
 cd CELEBAL_MAJOR_PROJECT
 
-Mail Server .env:
+** Mail Server .env:
 -----------------
-# Email user  = Write any valid email
-# Email password = write your App password for automatic authenticate
+- Email user  = Write any valid email
+- Email password = write your App password for automatic authenticate
 
 
-global .env
+** Global .env
 ----------
-# MAILGUN_API_KEY=your_mailgun_api_key
-# MAILGUN_DOMAIN=your_domain.mailgun.org
+- MAILGUN_API_KEY=your_mailgun_api_key
+- MAILGUN_DOMAIN=your_domain.mailgun.org
 
 
 
