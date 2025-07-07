@@ -43,8 +43,10 @@
 ---
 
 ## 📸 Screenshots
-![Screenshot (318)](https://github.com/user-attachments/assets/f4179de3-a0ef-4520-a625-15fe7cd801a1)
-![Screenshot (317)](https://github.com/user-attachments/assets/4e969284-7df2-483e-b34b-7859ac90bc5c)
+![Screenshot (318)](https://github.com/user-attachments/assets/1bbdabfc-ce60-4759-86f8-e9878b0d8c50)
+![Screenshot (317)](https://github.com/user-attachments/assets/bd6d29ea-3ede-4813-be48-c3a5cd76191c)
+
+
 
 > 
 
